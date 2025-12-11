@@ -59,11 +59,11 @@ These emissions are broken down by major sectors like coal, oil, gas, and others
 
 After we isolated the countries we would be dealing with, we began cleaning the data. Observations began in 1750, but most of the countries did not begin recording emission data until much later (for example Brazil started in 1856), so we removed all unnecessary empty rows. We then interpolated inclusive missing values via linear interpolation in the MATLAB Data Cleaner Application and updated the "Total" column (which we will be primarily working with) to include the newly interpolated measurements. Finally, we increased the stationarity of our data via data transformations, such as log or differencing, because time-series forecasting models assume inputted data is stationarity. After this last step, our data was ready for the modeling process.
 
-Here is an example of our data before and after making it stationary. 
-Before:  
+Here is an example of our data before and after making it stationary.   
+Before:    
 <img width="577" height="342" alt="Screenshot 2025-10-20 195055" src="https://github.com/user-attachments/assets/d02eb56f-83a0-4ef4-831e-f36ac1d116f6" />
 
-After:
+After:  
 <img width="577" height="342" alt="Screenshot 2025-10-20 195116" src="https://github.com/user-attachments/assets/ff6d0267-45ca-4879-99bf-12ac56527d64" />
 
 
