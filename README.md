@@ -54,7 +54,11 @@ Group Tasks: Data exploration, data analysis, data visualization, model selectio
 1. 
 
 ### Brazil
-1. 
+1. Navigate to the 'brazil/' folder
+2. Download all of the files in it to the same local directory.
+3. Open the brazil_cubic.mlx file in Matlab
+4. To test different models, at line 200, change the model name to be any of the downloaded ones, such as arima_quad_31 or arima_cubic31. Also change the inputted remainder to match the model, so quadRemainder for quad models, cubicRemainder for cubic models, and fourRemainder for four models. Also be sure to change the remainder in lines 211 and 252. Also, change the model in line 249 to 'quad,' 'cubic,' or 'four' to reflect the remainder.
+5. Run the file
 
 ---
 
