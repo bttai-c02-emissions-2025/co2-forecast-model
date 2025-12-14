@@ -54,10 +54,13 @@ All main code files should give ARIMA/SARIMA models based on observed trends. Th
 1. 
 
 ### India
-1. 
+1. Download emissions data from `Global_Carbon_Dataset/` folder
+2. Navigate to the `India/` folder in the repository
+3. Run `Data_Interpolation_India.mlx` script to prepare data
+4. Run `Forecasting_India.mlx` script to generate the 2050 emissions forecast
 
 ### Brazil
-1. Navigate to the 'brazil/' folder
+1. Navigate to the `brazil/` folder
 2. Download all of the files in it to the same local directory.
 3. Open the brazil_cubic.mlx file in Matlab
 4. To test different models, at line 200, change the model name to be any of the downloaded ones, such as arima_quad_31 or arima_cubic31. Also change the inputted remainder to match the model, so quadRemainder for quad models, cubicRemainder for cubic models, and fourRemainder for four models. Also be sure to change the remainder in lines 211 and 252. Also, change the model in line 249 to 'quad,' 'cubic,' or 'four' to reflect the remainder.
