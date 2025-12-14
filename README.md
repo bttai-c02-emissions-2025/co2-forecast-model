@@ -33,21 +33,22 @@ Group Tasks: Data exploration, data analysis, data visualization, model selectio
 - In MATLAB, open the directory you cloned the repository into
 
 ## ▶️ Running the Code
+All main code files should give ARIMA/SARIMA models based on observed trends. The predictions of the models either go until 2023 or 2050.
 
 ### France
 1. Download emissions data formatted the same way as the Global Carbon Project dataset and save it as `CO2.csv`
 2. Run `CO2_datacleaningscript.m` to clean the data
 3. Run the quadratic modeling script
-4. Run `France_Forecast_To_2050.mlx`
+4. Run `France_Forecast_To_2050.mlx` to display the models
 
 ### United Kingdom
 1. Navigate to the `United_Kingdom/` folder
-2. Run `train_uk_regarima_cubic.mlx`
+2. Run `train_uk_regarima_cubic.mlx` to display the models
 
 ### China
 1. Download all emissions data from the `China/` folder
 2. Add the `ChinaDataUnclean1.mat` to the workspace. This gets all the cleaned data for China's carbon emissions.
-3. Run `ChinaTS2.mlx`
+3. Run `ChinaTS2.mlx` to display the models
 
 ### United States
 1. 
@@ -60,7 +61,7 @@ Group Tasks: Data exploration, data analysis, data visualization, model selectio
 2. Download all of the files in it to the same local directory.
 3. Open the brazil_cubic.mlx file in Matlab
 4. To test different models, at line 200, change the model name to be any of the downloaded ones, such as arima_quad_31 or arima_cubic31. Also change the inputted remainder to match the model, so quadRemainder for quad models, cubicRemainder for cubic models, and fourRemainder for four models. Also be sure to change the remainder in lines 211 and 252. Also, change the model in line 249 to 'quad,' 'cubic,' or 'four' to reflect the remainder.
-5. Run the file
+5. Run the file to display the models
 
 ---
 
