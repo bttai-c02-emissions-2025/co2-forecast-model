@@ -45,8 +45,8 @@ Group Tasks: Data exploration, data analysis, data visualization, model selectio
 2. Run `train_uk_regarima_cubic.mlx`
 
 ### China
-1. Download all emissions data from the China branch labeled `Isabella`
-2. Add the 'ChinaDataUnclean1.mat' to the workspace. This gets all the cleaned data for China's carbon emissions.
+1. Download all emissions data from the `China/` folder
+2. Add the `ChinaDataUnclean1.mat` to the workspace. This gets all the cleaned data for China's carbon emissions.
 3. Run `ChinaTS2.mlx`
 
 ### United States
