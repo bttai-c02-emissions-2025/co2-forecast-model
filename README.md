@@ -51,8 +51,8 @@ All main code files should give ARIMA/SARIMA models based on observed trends. Th
 3. Run `ChinaTS2.mlx` to display the models
 
 ### United States
-1. Download all emissions data from the branch labeled `caitlyn/`
-2. Run `usa_cubicDetrend_model.mlx`
+1. Download all emissions data from the 'USA/' folder
+2. Run `usa_Co2_Model.mlx`
 
 ### India
 1. Download emissions data from `Global_Carbon_Dataset/` folder
